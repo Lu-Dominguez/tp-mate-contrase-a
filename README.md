@@ -13,7 +13,7 @@ Crear una aplicación de línea de comandos robusta que funcione como un **vault
 
 ## Tecnologías y Dependencias
 
-Este proyecto está construido en **Python 3** y requiere la poderosa librería `cryptography` para todas las operaciones criptográficas.
+Este proyecto está construido en **Python 3** y requiere la librería `cryptography` para todas las operaciones criptográficas.
 
 ```bash
 # Instalación de dependencias
