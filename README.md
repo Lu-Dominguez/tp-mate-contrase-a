@@ -79,7 +79,7 @@ Para cualquier operación que **modifique** el vault (`add`, `modify`, `delete`)
 
 ```bash
 python main.py add --file vault.bin --private private.pem --passphrase "miPass" --public public.pem --name "juan" --password "Secreto123!"
-# Opción: Si omites --password, se te pedirá interactivamente de forma segura (sin eco).
+# Opción: Si no proporcionas --password, se pedirá ingresarla por consola de forma segura.
 ```
 
 #### Listar Registros (`list`)
@@ -94,7 +94,7 @@ python main.py list --file vault.bin --private private.pem --passphrase "miPass"
 
 ```bash
 python main.py modify --file vault.bin --private private.pem --passphrase "miPass" --public public.pem --name "juan" --password "NuevaPass123!"
-# Opción: Si omites --password, se te pedirá interactivamente.
+# Opción: Si no proporcionas --password, se pedirá ingresarla por consola de forma segura.
 ```
 
 #### Eliminar un Registro (`delete`)
